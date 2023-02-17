@@ -1,3 +1,4 @@
+!{} (https://github.com/ahart8/JavaScript_Projects/blob/main/github-header-image.png)
 
 # JavaScript_Projects
 
