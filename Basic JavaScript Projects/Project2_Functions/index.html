@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+     
+     <script src="./JS/main.js"> </script> <!--Connect to the JavaScript file-->
+ <link rel="stylesheet" href="./cs/functions.css"><!--- Conntect to the css file-->
+</head>
+
+<body>
+    
+    <!--FLEX CONTAINTER TO HOLD IMAGES-->
+     <div class="flex-container">
+          <div class="box1" ><img src="./img/1.jpg" alt="Bella" ></div>        
+           <div class="box1"><img src="img/2.jpg" alt="Oliver" ></div>
+          <div class="box1"><img src="./img/4.jpg" alt="Mandy" ></div>
+          <div class="box1"><img src="./img/5.jpeg" alt="Bibi" ></div>
+          <div class="box1"><img src="./img/6.jpg" alt="Maverick" ></div>
+          <div class="box1"><img src="./img/7.jpg" alt="Lacy" ></div>
+          <div class="box1"><img src="./img/8.jpg" alt="Piper" ></div>
+     </div> 
+     <!--CONTAINER FOR THE BUTTON-->
+     <div class="container">
+          <!--THIS HTML ELEMENT CALLS A FUNCTION-->
+              <button onclick="concatTwoStrings()" class="button">
+                    Click Here
+               </button>
+            </div>
+     <!--THIS HTML ELEMENT DISPLAYS A FUNCUNTION-->
+     <h2 id="greeting" style="text-align: center;"></h2>
+
+     <div>
+          <!--Give the paragraph element and id and call the function
+          in js when the onclick event happens. When the user clicks the text.-->
+          <p id="mytext" onclick="changeText()">Click Me!</p>
+     </div>
+   
+</body>
+
+</html>

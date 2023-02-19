@@ -1,6 +1,6 @@
 
 //WRITE AN EXPRESSION
-window.alert(4+4 +" "+"Is my lucky number"); //This is a statement containing an expression.
+//window.alert(4+4 +" "+"Is my lucky number"); //This is a statement containing an expression.
 
 //CONCATENATE 2 SENTANCES AND DISPLAY ON SCREEN
 function concatTwoStrings(){
@@ -9,3 +9,12 @@ function concatTwoStrings(){
     result=sent1.concat(sent2);//Make the varialbe result have the value of the concatenated variables
     document.getElementById("paragraphText").innerHTML=result;//Set paragraph text to be the value stored in the result variable and add it to the HTML
 }
+
+//ONMOUSE OUT -MAKE THE TEXT TURN RED
+function changeRed() {
+    document.getElementById("change").style.color="red";
+}
+
+function changeBlue() {
+    document.getElementById("change").style.color="blue";
+  }
