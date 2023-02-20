@@ -25,7 +25,7 @@ function divideFunction() {//Define the function
 
 function multiMath() {//Define the function
     var multimath = (5 + 5) * 3 / 4 - 1;//Create a variable
-    document.getElementById("Multi").innerHTML = "5+5 times 3 dividide by 4-1 =" + multimath;
+    document.getElementById("Multi").innerHTML = "5+5 times 3 dividide by 4-1 =" + multimath;//Set the HTML element to the value of the variable.
 }
 
 function modulusFunction() {//Define the function
