@@ -15,3 +15,18 @@ function myFirstDictionary() {
     delete RockBands.Album; //Remove the key before it id displayed
     document.getElementById("Dictionary").innerHTML = RockBands.Album;
 }
+
+let counter = 0;
+
+function addFive() {
+    counter += 5
+    console.log(counter)
+}
+
+function addTwo() {
+    counter += 2
+    console.log(counter)
+}
+
+addFive(counter);// what will this show in the console?
+addTwo(counter);// what will this show in the console?

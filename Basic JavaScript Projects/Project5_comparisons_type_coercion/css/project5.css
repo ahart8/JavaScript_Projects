@@ -1,0 +1,39 @@
+.box {
+    border: 5px solid mediumspringgreen;
+    background-color: mediumvioletred;
+    width: 400px;
+    height: 150px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.box1 {
+    border: 5px solid mediumslateblue;
+    background-color: gray;
+    width: 400px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.container {
+    padding-top: 20px;
+    display: block;
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 5px solid magenta;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+
+.buttonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
