@@ -7,7 +7,8 @@
 
   <ul>
     <li>Project1 expressions alert</li>
-    <li>Project2 functions<l1>
-    <li>Project3 math operations<li>
-    <l1>Project 3 dicitionaries<l1>
+    <li>Project2 functions</li>
+    <li>Project3 math operations</li>
+    <li>Project4 dicitionaries</li>
+    <li>Project5 comparisons type cooercion</li>
   </ul>
