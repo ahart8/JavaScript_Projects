@@ -14,11 +14,3 @@ function changeText(){ //Define the function that accesses the element id with t
     mytext.style.color="rgb(38, 73, 107)";
 }
 
-function setNewImage(){
-  
-  document.getElementById("img1").src="1.jpg";
-}
-
-function setOldImage(){
-
-}
