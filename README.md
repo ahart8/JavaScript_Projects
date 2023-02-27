@@ -11,5 +11,7 @@
     <li>Project3 math operations</li>
     <li>Project4 dicitionaries</li>
     <li>Project5 comparisons type cooercion</li>
-    <li>Project6 ternary operators and constructors </l1>
+    <li>Project6 ternary operators and constructors </li>
+    <li>Project7 scope time functions </li>
+    <li>Project8 string methods</li>
   </ul>
