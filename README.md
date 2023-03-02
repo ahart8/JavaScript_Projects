@@ -14,4 +14,6 @@
     <li>Project6 ternary operators and constructors </li>
     <li>Project7 scope time functions </li>
     <li>Project8 string methods</li>
+    <li>Project9 countdown slideshow</li>
+    <li>Project10 loops and arrays </li>
   </ul>
