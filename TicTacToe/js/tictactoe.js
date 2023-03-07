@@ -14,11 +14,11 @@ function placeXOrO(squareNumber) {
         //This condition check who's turn it is.
         if (activePlayer === 'X') {
             //If activeplayer is equal to 'X' the x.png is placed in HTML
-            select.style.backgroundImage = 'url("file:///C:/Users/amy/Documents/JavaScript_Projects/TicTacToe/images/x.png")';
+            select.style.backgroundImage = 'url("./images/x.png")';
             //Active player may only be 'X' or 'O' so if not x it must be o
         } else {
             //If activePlayer is equal to 'O', the o.png is placed in HTML.
-            select.style.backgroundImage = 'url("file:///C:/Users/amy/Documents/JavaScript_Projects/TicTacToe/images/o.png")';
+            select.style.backgroundImage = 'url("./images/o.png")';
         }
         //squareNumber and activePlayer are concatenated together and added to array.
         selectedSquares.push(squareNumber + activePlayer);
