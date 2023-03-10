@@ -24,6 +24,7 @@ function getReceipt() {
         sizeTotal = 16;
     }
     runningTotal = sizeTotal;
+    console.log(sizeTotal);
     console.log(selectedSize + " +$" + sizeTotal + ".00");
     console.log("size text1: " + text1);
     console.log("subtotal: $" + runningTotal + ".00");
@@ -39,7 +40,6 @@ function getTopping(runningTotal, text1) {
     for (var j = 0; j < toppingArray.length; j++) {
         if (toppingArray[j].checked) {
             selectedTopping.push(toppingArray[j].value);
-            // console.log("Selected topping item: ("+toppingArray[j].value+")");
             text1 = text1 + toppingArray[j].value + "<br>";
             document.getElementById("showText").innerHTML = text1;
         }
