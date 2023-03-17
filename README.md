@@ -4,7 +4,7 @@
 
  This repository is a collection of coding projects and assignments that I completed in Tech Academy's JavaSript course.
 
-
+![basic javascript projects](Basic JavaScript Projects)
   <ul>
     <li>Project1 expressions alert</li>
     <li>Project2 functions</li>
