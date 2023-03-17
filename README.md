@@ -4,9 +4,9 @@
 
  This repository is a collection of coding projects and assignments that I completed in Tech Academy's JavaSript course.
 
-![basic javascript projects](Basic JavaScript Projects)
+![basic javascript projects](https://github.com/ahart8/JavaScript_Projects/tree/main/Basic%20JavaScript%20Projects)
   <ul>
-    <li>![basic javascript projects](Basic JavaScript Projects)</li>
+    <li>![basic javascript projects](https://github.com/ahart8/JavaScript_Projects/tree/main/Basic%20JavaScript%20Projects)</li>
     <li>![basic javascript projects](Basic JavaScript Projects)</li>
     <li>Project3 math operations</li>
     <li>Project4 dicitionaries</li>
