@@ -3,17 +3,20 @@
 # JavaScript_Projects
 
  This repository is a collection of coding projects and assignments that I completed in Tech Academy's JavaSript course.
+## Projects
+- [Basic Javascript Projects](./Basic%20JavaScript%20Projects)
+- [Calculator](./Calculator)
+- [Pizza Project](./Pizza_Project)
+- [TicTacToe](./TicTacToe)
 
+### Basic JavaScript Projects
+This folder contains all of the coding assigments and excercises that I worked on in the JavaScript course.
+ 
+### Pizza Menu
+This project is a pizza menu. The user is able to select a pizza size and toppings. The program calculates and cost and displays it back to the user.
 
-  <ul>
-    <li>Project1 expressions alert</li>
-    <li>Project2 functions</li>
-    <li>Project3 math operations</li>
-    <li>Project4 dicitionaries</li>
-    <li>Project5 comparisons type cooercion</li>
-    <li>Project6 ternary operators and constructors </li>
-    <li>Project7 scope time functions </li>
-    <li>Project8 string methods</li>
-    <li>Project9 countdown slideshow</li>
-    <li>Project10 loops and arrays </li>
-  </ul>
+### Tic-Tac-Toe Game
+Play tic-tac-toe against the computer!
+
+### Calculator
+This is a basic 4 function calculator. Use it to add, subtract, multiply and divide.
