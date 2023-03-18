@@ -1,3 +1,4 @@
+
 function getReceipt() {
     //THis initializes our string so it canget passed from 
     //function to function, growing line by line into a full reciept

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+  <script src="./js/popup_form.js" defer></script> 
+  <link rel="stylesheet" href="./cs/popup_form.css">
+    
+</head>
+
+<body>
+<h2>Popup Form</h2>
+<p>Click on the button at the bottom of this page to open the login form.</p>
+<p>Note that the button and the form is fixed - they will alway be position to the bottom of the browser window.</p>
+
+<button class="open-button" onclick="openForm()">Open Form</button>
+
+<div class="form-popup" id="myForm">
+<form action="/actin_page.php" class="form-container">
+<h1>Login</h1>
+
+<label for="email"><strong>Email</strong></label>
+<input type="text" placeholder="Enter Email" name="email" required>
+
+<label for="psw"><strong>Password</strong></label>
+<input type="password" placeholder="Enter Password" name="psw" required>
+
+<button type="submit" class="btn">Login</button>
+<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+</form>
+</div>
+</body>
+
+</html>

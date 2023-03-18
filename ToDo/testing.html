@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+</head>
+
+
+<body>
+<p id="myDog1"></p>
+<p id="myDog2"></p>
+<p id="myDog3"></p>
+<script>
+var dog1={name:"River",breed:"Boston Terrier",color:"Black and White"};
+var dog2='{"name":"River","breed":"Boston Terrier","color":"Black and White"}';
+
+var JSONstring1=JSON.stringify(dog1);
+var JSONstring2=JSON.parse(dog2);
+document.getElementById("myDog1").innerHTML=JSONstring1;
+document.getElementById("myDog2").innerHTML=JSONstring2.name +"the"+JSONstring2.breed;
+
+localStorage.setItem("Name","River");
+document.getElementById("myDog3").innerHTML=localStorage.getItem("Name");
+
+</script>
+</body>
+
+
+
+</html>
