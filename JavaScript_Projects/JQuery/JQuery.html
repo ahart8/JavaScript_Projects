@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">  </script>
+</head>
+
+<body>
+    <script>
+        $(document).ready(function () {
+            $("html").append(
+                "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>Basic jQuery</h1>\
+                            <p id='1'>Paragraph 1</p>\
+                            <p id='2'>Paragraph 2</p>\
+                            <p id='3'>Paragraph 3</p>\
+                            <p id='4'>Paragraph 4</p>\
+                        </div>\
+                    </div>\
+                </body>"
+            );
+            //This line of code with hide the entire div/have a delay/then show the div again.
+            $("div").hide(500).delay(1500).show(300);
+
+            //Two fuctions are being used with one on method.
+            //The first function displays "clicked " in the console
+            //when the user clicks on paragraph 1 and displayes "hovered" when paragraph 1 in hovered.
+            $("#1").on({
+                "click": function () { console.log("clicked"); },
+                "mouseover": function () { console.log("hovered"); }
+            });
+            //CSS is used to set the font color to red on paragraph 2
+            $("#2").css({ "color": "red" });
+
+            //Heading one is hidden when a user clicks.
+            $("#3").click(function () {
+                $('h1').hide();
+
+            });
+
+            //Make paragraph 4 fade in and fade out
+            $("#4").fadeOut(1500).delay(1500).fadeIn(1000);
+        });
+    </script>
+
+
+
+
+
+</html>

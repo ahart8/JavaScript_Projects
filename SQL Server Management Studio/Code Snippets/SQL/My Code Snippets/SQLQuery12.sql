@@ -1,0 +1,1 @@
+exec[dbo].[getAnimal_INFO]'ja guar'

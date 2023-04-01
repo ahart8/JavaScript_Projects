@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+     <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="./css/project8.css">
+     <script src="./js/main.js"></script>
+</head>
+<header>
+     <div class="header">
+          <p>String Methods</p>
+     </div>
+</header>
+
+<body>
+     <!--CONCATENATE-->
+     <div class="row">
+          <div class="column" >
+               <div Class="functions">
+                    <div class="container">
+                         <h4>Example Of The concat() Method </h4>
+                         <h5>The function used concatenated 4 words to create a sentance.</h5>
+                         <img id="image" src="./img/weasel.png" alt="Weasel" />
+
+                         <p id="string" onclick="concatMethod()">Click</p> 
+                    </div>
+               </div>
+               <!--END CONCATENATE-->
+
+               <!--TOSTRING-->
+               <div Class="functions">
+                    <div class="container">
+                         <h4>Example Of The toString() Method</h4>
+                         <h5>Enter a number</h5>
+                         <p id="returned"></p><br>
+                         <input id="entered" value="" />
+                         <button onclick="toStringMethod()">Click</button>
+                    </div>
+               </div>
+               <!--END TOSTRING-->
+
+               <!--PRECISION-->
+               <div Class="functions">
+                    <div class="container">
+                         <h4>Example Of The toPrecision() Method</h4>
+                         <h5>The number 88.88888 displayed using a precision of 2.</h5>
+                         <p id="precision"></p><br>
+                         <p onclick="toPrecisionMethod()">Click</p>
+                    </div>
+               </div>
+               <!--END  PRECISION-->
+
+          </div><!--End Column 1-->
+
+          <!--SLICE-->
+          <div class="column">
+               <div Class="functions">
+                    <div class="container">
+                         <h4>Example Of The slice() Method</h4>
+                         <h5>Click the button to slice the sentance.</h5>
+                         <p>I love rock and roll!</p>
+                         <p id="sliced"></p>
+
+                         <button onclick="sliceMethod()">Click</button>
+                    </div>
+               </div>
+               <!--END SLICE-->
+
+               <!--TOUPPERCASE-->
+               <div Class="functions">
+                    <div class="container">
+                         <h4>Example Of The toUpperCase() Method</h4>
+                         <h5>Enter text that contains lower case letters.</h5>
+                         <p id="displaytext"></p>
+                         <input id="inputtext" value="" />
+                         <button onclick="toUpperCaseMethod()">Click</button>
+                    </div>
+               </div>
+               <!--END TOUPPERCASE-->
+
+               <!--SEARCH-->
+               <div Class="functions">
+                    <div class="container">
+                         <h4>Example Of The search() Method</h4>
+                         <h5>Enter a letter in the sentance to find the position.</h5>
+                         <p>I love Rock and Roll</p>
+
+                         <p id="showText"></p>
+                         <input id="input">
+                         <button onclick="searchMethod()">Click</button>
+
+                    </div>
+               </div>
+               <!--END SEARCH-->
+
+          </div><!--End Col 2-->
+
+     </div><!--row-->
+
+
+
+</body>
+
+</html>

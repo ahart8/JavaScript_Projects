@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <title>Form Challenge</title>
+     <meta charset="utf-8">
+  <script src="./JS/form_challenge.js"> </script>
+    
+</head>
+
+<body>
+     <h1>Form Challenge</h1>
+     <form name="myForm" action="" onsubmit="return validateForm()" method="post">         
+          <input type="text" id="fname" name="fname" value=""><br><br>               
+          <input type="text" id="lname" name="lname" value=""><br><br>
+          <label for='phone'>Phone Number</label>
+          <input type="tel" id="phone" name="phone"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value=""><br><br>
+          <input type="submit" value="Submit">
+     </form>
+</body>
+
+</html>
